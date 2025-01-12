@@ -1,0 +1,104 @@
+.logoutButton {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: #855e28;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f9f3e8;
+  color: #533d2f;
+}
+
+.header {
+  text-align: center;
+  background-color: #8e7d65;
+  color: white;
+}
+
+.mainContent {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.animalsSection {
+  margin-bottom: 20px;
+}
+
+.animalsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.animalCard {
+  text-align: center;
+  background: white;
+  border: 1px solid #8e7d65;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.animalImg {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.addAnimalBtn {
+  grid-column: span 3;
+  border: 2px dashed #8e7d65;
+  background: none;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.messagesSection {
+  margin-top: 20px;
+}
+
+.messageCard {
+  background-color: #fff6e0;
+  padding: 10px;
+  border: 1px solid #8e7d65;
+  border-radius: 5px;
+}
+
+.readMore {
+  background: none;
+  border: none;
+  color: #8e7d65;
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  background-color: #8e7d65;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
