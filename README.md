@@ -47,3 +47,8 @@ Une application web inspirée de Tinder, permettant de parcourir et d'interagir 
    ```bash
    git clone https://gitlab.com/<votre-depot>.git
    cd <votre-depot>
+
+2. Ouvez le fichier server.js dans le répertoire backend :
+   changez cette ligne : const uri = 'mongodb+srv://<password>@bdd-tinder.txtkf.mongodb.net/?retryWrites=true&w=majority&appName=bdd-tinder'; afin de le connecter à votre propre base de donnée
+
+3. Une fois l'application lancée, il est conseillé de commencer par s'inscrire en tant qu'organisation, puis d'ajouter quelques animaux afin de peupler la base de données et tester les fonctionnalités de l'application.
