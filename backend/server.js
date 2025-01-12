@@ -21,7 +21,7 @@ const organizationAddAnimal = require('./routes/organizations/animal');
 
 
 // Connectez-vous à MongoDB
-const uri = 'mongodb+srv://raminjll:273RJrjllfi.@bdd-tinder.txtkf.mongodb.net/?retryWrites=true&w=majority&appName=bdd-tinder';
+const uri = 'mongodb+srv://raminjll:<password>@bdd-tinder.txtkf.mongodb.net/?retryWrites=true&w=majority&appName=bdd-tinder';
 
 // Connectez-vous à MongoDB
 mongoose.connect(uri)
