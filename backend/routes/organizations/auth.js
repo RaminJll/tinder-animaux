@@ -10,7 +10,7 @@ const jwtSecret = process.env.JWT_SECRET;
 // Route d'inscription
 router.post('/register', async (req, res) => {
     const { email, password, name, siret, phone, address, ville, codePostal } = req.body;
-    console.log("Données reçues :", req.body); // Vérifiez que les données arrivent correctement
+    console.log("Données reçues :", req.body);
 
     try {
         const organization = await Organization.create({ siret, email, password, name, phone, address, ville, codePostal });
